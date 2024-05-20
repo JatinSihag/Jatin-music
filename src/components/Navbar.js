@@ -15,24 +15,24 @@ const Navbar = ({ keyword, handleKeyPress, setKeyword, fetchMusicData }) => {
       <nav className="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <i className="bi bi-music-note-list mx-3"></i> Jatin-music
+            <i className="bi bi-music-note-list mx-3 bg-black"></i> Jatin-music
           </Link>
           <div>
             <button
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
-              className="btn btn-secondary btn-sm mx-1"
+              className="btn btn-secondary btn-sm mx-1 bg-black"
             >
-              <i className="bi bi-pin-angle-fill"></i> {pinnedMusic.length}
+              <i className="bi bi-pin-angle-fill bg-black"></i> {pinnedMusic.length}
             </button>
             <button
               type="button"
               data-bs-toggle="modal"
               data-bs-target="#likedMusicModal"
-              className="btn btn-secondary btn-sm mx-1"
+              className="btn btn-secondary btn-sm mx-1 bg-black"
             >
-              <i className="bi bi-heart-fill"></i> {likedMusic.length}
+              <i className="bi bi-heart-fill bg-black"></i> {likedMusic.length}
             </button>
           </div>
 
