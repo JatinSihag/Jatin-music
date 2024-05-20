@@ -5,6 +5,9 @@
 .App {
   text-align: center;
 }
+.card-text{
+  color: black;
+}
 
 .App-logo {
   height: 40vmin;
